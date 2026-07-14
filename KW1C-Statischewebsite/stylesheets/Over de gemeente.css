@@ -1,0 +1,24 @@
+body,ul,li
+{
+    padding: 0px;
+    margin: 0px;
+}
+ul
+{
+    display:flex;
+    list-style-type:none;
+    padding: 0px;
+}
+li
+{
+    width: 25%;
+    text-align: center;
+    background-color:dodgerblue;
+    color:white;
+    padding-bottom: 25px;
+    padding-top: 25px;
+}
+li:hover
+{
+    background-color: orange;
+}

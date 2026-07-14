@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Over ons</title>
+    <style>
+        body {
+            background-color: #bbf2d5;
+            font-family: Arial, sans-serif;
+        }
+
+        .nav-button {
+            display: inline-block;
+            background-color: #28a745;
+            color: white;
+            padding: 10px 20px;
+            margin: 5px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background-color 0.3s;
+        }
+
+        .nav-button:hover {
+            background-color: #218838;
+        }
+    </style>
+</head>
+
+<body style="background-color: #bbf2d5;">
+
+    <h1>Eten en Drinken in Waalwijk</h1>
+    <p>Ontdek de beste eet- en drinkgelegenheden in Waalwijk!</p>
+
+    <nav>
+        <a href="index.htm" class="nav-button">Home</a>
+        <a href="over-de-gemeente.htm" class="nav-button">Over de gemeente</a>
+        <a href="sportmogelijkheden.htm" class="nav-button">Sportmogelijkheden</a>
+        <a href="IT-bedrijven.htm" class="nav-button">IT bedrijven</a>
+        <a href="eten-en-drinken.htm" class="nav-button">Eten en drinken</a>
+        <a href="place-of-interest.htm" class="nav-button">Place of interest</a>
+    </nav>
+
+    <p style="font-size: 35px;">Over ons.</p>
+
+    <img src="https://encrypted-tbn0.gstatic.com/licensed-image?q=tbn:ANd9GcQAOTfETH7R5bwTPzkXx8XiY-4X5sjbLAfIU3nB7pL5uPw79VaTcsx998sAir5clPE7vH0ENMH8H18OG8e22sITaao&s=192" 
+         width="400" height="300" alt="Waalwijk">
+
+    <p>Ik ben een student die momenteel bezig is met het maken van deze website over de gemeente Waalwijk. De website dient als project waar ik kan laten zien wat de gemeente te bieden heeft aan eet- en drinkgelegenheden, sportmogelijkheden en leuke bezienswaardigheden. Het helpt mij ook om zowel met mijn vaardigheden in webdesign en programmeren als met hoe ik mensen op een interessante en eenvoudige manier informatie kan geven over bepaalde onderwerpen, en het is leuk om te onderzoeken wat deze stad te bieden heeft.</p>
+
+   <script>
+      let antwoord = prompt("Vind jij Waalwijk een leuke gemeente? (ja/nee)");
+
+      while (antwoord.toLowerCase() !== "ja" && antwoord.toLowerCase() !== "nee") {
+        antwoord = prompt("Ongeldig antwoord. Vul alsjeblieft 'ja' of 'nee' in. Vind jij Waalwijk een leuke gemeente? (ja/nee)");
+      }
+
+      const reactie = "Bedankt voor je antwoord!";
+      alert("Je zei: " + antwoord + ". " + reactie);
+    </script>
+
+    <footer>
+        <p>Meer informatie over Waalwijk vind je op 
+            <a href="https://www.waalwijk.nl">waalwijk.nl</a>
+        </p>
+        <p>© 2025 IT-bedrijven in Waalwijk</p>
+        <p>Email: marcin.nowicki@edu-kw1c.nl</p>
+        <p><a href="Over-ons.htm" class="nav-button" style="background-color: white; color: #28a745; padding: 5px 10px; border-radius: 5px; text-decoration: none;">Over ons</a></p>
+    </footer>
+
+</body>
+</html>
